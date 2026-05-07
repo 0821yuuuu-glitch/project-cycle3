@@ -3,7 +3,7 @@ import numpy as np
 from statsmodels.stats.proportion import proportions_ztest
 
 # 1. 讀取資料
-df = pd.read_csv('../data/raw/YRBS_2007.csv')
+df = pd.read_csv('Data/raw/YRBS_2007.csv')
 
 # 2. 資料清理與重編碼
 # 定義性別 (1=Male, 2=Female, 根據 YRBS 定義)
